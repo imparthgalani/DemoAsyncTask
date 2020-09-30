@@ -44,6 +44,7 @@ public class CustomAdapter extends BaseAdapter {
 
         TextView Website = (TextView) convertView.findViewById(R.id.txtWebsite);
         TextView Url = (TextView) convertView.findViewById(R.id.txtUrl);
+        TextView Id = (TextView) convertView.findViewById(R.id.txtId);
 
         try {
             JSONObject jsonObject = jsonArray.getJSONObject(position);
@@ -57,6 +58,7 @@ public class CustomAdapter extends BaseAdapter {
 
 /* ----------- Using Internet this method ----------- */
 
+            Id.setText(jsonObject.getString("id"));
             Website.setText(jsonObject.getString("name"));
             //Url.setText(jsonObject.getString("city"));
 

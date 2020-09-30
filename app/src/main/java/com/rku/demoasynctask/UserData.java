@@ -19,7 +19,7 @@ public class UserData extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_data);
-
+        setTitle("User Detail's");
 
         txtId = findViewById(R.id.txtId);
         txtName = findViewById(R.id.txtName);

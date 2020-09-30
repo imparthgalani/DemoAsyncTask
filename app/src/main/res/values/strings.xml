@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">DemoAsyncTask</string>
+    <!--<string name="app_name">DemoAsyncTask</string>-->
+    <string name="app_name">Tutorial 10</string>
 </resources>
