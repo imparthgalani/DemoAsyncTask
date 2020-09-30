@@ -57,8 +57,8 @@ public class CustomAdapter extends BaseAdapter {
 
 /* ----------- Using Internet this method ----------- */
 
-            Website.setText(jsonObject.getString("username"));
-            Url.setText(jsonObject.getString("name"));
+            Website.setText(jsonObject.getString("name"));
+            Url.setText(jsonObject.getString("email"));
 
            /* JSONObject addObj = jsonObject.getJSONObject("address");
             Website.setText(addObj.getString("street"));*/
